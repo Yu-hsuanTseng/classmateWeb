@@ -1,0 +1,102 @@
+html,head,body {
+    width: 100%;
+}
+
+.head2 {
+    padding-left: 70px;
+}
+
+.navbar {
+    background: url("../img/1.png");
+    height: 73px;
+}
+
+
+.navbar-brand {
+    margin-left: 100px;
+}
+
+
+.collapse {
+    margin-left: 120px;
+}
+
+.nav-item {
+    margin-right: 80px;
+}
+
+
+@media (max-width : 990px){
+    .collapse {
+        margin-left: 0 auto;
+    }
+    .navbar-brand {
+        margin-left: 20px;
+    }
+    .collapse {
+        background-color: white;
+    }
+    
+}
+
+.BigImg {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.line {
+    margin-left:8%;
+    margin-right:8%;
+    width:84%;
+}
+
+article{
+    background: url("../img/bg2.png");
+    padding-top:40px;
+    padding-bottom: 30px;;
+    margin-top:0;
+}
+
+.Btn {
+    width: 314px;
+    height: 170px;
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.Btn1 {
+    background: url("../img/3.png");
+}
+
+.Btn2 {
+    background: url("../img/4.png");
+}
+
+.Btn3 {
+    background: url("../img/5.png");
+}
+
+footer {
+    background: url("../img/木紋2.png");
+    padding-top:10px;
+    padding-left:80%;
+}
+
+@media screen and (max-width:788px) and (min-width:320px){
+    .Btn {
+        margin-left: 20%;
+    }
+    footer {
+        padding-left:50%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .Btn {
+        margin-left: 1px;
+    }
+    footer {
+        padding-left:20%;
+    }
+}
+
